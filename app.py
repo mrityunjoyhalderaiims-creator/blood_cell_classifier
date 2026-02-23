@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 import tensorflow as tf
 
-st.set_page_config(page_title="GTM Image Classifier", layout="centered")
+st.set_page_config(page_title="Blood Cell Classifier", layout="centered")
 
 # ----------------------------
 # Paths
@@ -77,7 +77,7 @@ def predict_image(model, img: Image.Image):
 # ----------------------------
 # UI
 # ----------------------------
-st.title("GTM Image Classifier")
+st.title("Blood Cell Classifier")
 
 # Load model + labels safely
 try:
