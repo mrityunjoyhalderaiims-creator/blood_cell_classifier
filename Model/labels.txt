@@ -1,0 +1,5 @@
+0 Basophil
+1 Erythroblast
+2 Monocyte
+3 Myeloblast
+4 Seg_neutrophil
